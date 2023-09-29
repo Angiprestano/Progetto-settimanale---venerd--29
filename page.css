@@ -110,7 +110,9 @@ h4 {
 
 .numbers {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .numbers h3 {
@@ -126,5 +128,35 @@ h4 {
 .number1 p {
     font-weight: 400;
     margin-left: 6em;
+    margin: 6px;
 }
 
+.number1 {
+width: 28%;
+margin: 14px;
+}
+
+.number2 {
+    width: 28%;
+    margin: 6px;
+}
+
+.number3 {
+    width: 28%;
+    margin: 6px;
+}
+
+.number4 {
+    width: 28%;
+    margin: 10px;
+}
+
+.number5 {
+    width: 28%;
+    margin: 6px;
+}
+
+.number6 {
+    width: 28%;
+    margin: 18px;
+}
